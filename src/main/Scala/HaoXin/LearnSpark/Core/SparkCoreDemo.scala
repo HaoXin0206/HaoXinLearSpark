@@ -8,6 +8,7 @@ import org.apache.spark.sql.SparkSession
 
 object SparkCoreDemo {
   def main(args: Array[String]): Unit = {
+    System.setProperty("HADOOP_USER_NAME","haoxin")
     val conf=new SparkConf()
       .setMaster("local[4]")
       .setAppName("")
@@ -31,10 +32,28 @@ object SparkCoreDemo {
       .reduceByKey(_+_)
       .map(a=>a.swap)
       .groupByKey()
-      .foreach(a=>{
+      .cache()
+
+    println(rdd.getNumPartitions)
+    val l1=System.currentTimeMillis()
+      rdd.foreach(a=>{
         println(a)
         saveDataToHDfsFile(  a._2.toList,a._1+"")
       })
+
+    val l2=System.currentTimeMillis()
+    println(l2-l1)
+
+    println("===============>")
+    rdd.collect().toList
+      .foreach(a=>{
+        saveDataToHDfsFile(a._2.toList,a._1+"")
+        println(a)
+      })
+
+    println(System.currentTimeMillis()-l2)
+
+    rdd.unpersist()
 
   }
 
@@ -42,7 +61,9 @@ object SparkCoreDemo {
     val conf=new Configuration()
     conf.set("fs.defaultFS","hdfs://haoxin01:8020")
     val fileSystem=FileSystem.get(conf)
-    val input: FSDataOutputStream =fileSystem.create(new Path(s"hdfs://haoxin01:8020/haoxin/data/2019063003/${name}"))
+    val path=new Path(s"hdfs://haoxin01:8020/haoxin/data/2019063003/${name}")
+    if (fileSystem.exists(path)) fileSystem.deleteOnExit(path)
+    val input: FSDataOutputStream =fileSystem.create(path)
     data.foreach(a=>{
       input.writeBytes(a+"\n")
     })
