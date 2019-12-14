@@ -35,9 +35,6 @@ public class SaveData2Parquet {
     private HashMap<String, String> typeMap = new HashMap<>();
     private ParquetWriter<Group> build;
     private SimpleGroupFactory simpleGroupFactory;
-    private Group group;
-    private Field[] fields;
-    private Class<?> aClass;
 
     /**
      *
@@ -84,9 +81,10 @@ public class SaveData2Parquet {
      */
     public void write(Object object) throws IllegalAccessException, IOException {
 
-        group = simpleGroupFactory.newGroup();
+        Group group = simpleGroupFactory.newGroup();
         Field[] fields = object.getClass().getDeclaredFields();
         for (Field fieldd : fields) {
+            fieldd.setAccessible(true);
             String name = fieldd.getName();
             if (fieldd.getType().getTypeName().toLowerCase().contains("string")) {
                 String s = fieldd.get(object).toString();
@@ -124,8 +122,8 @@ public class SaveData2Parquet {
     private String GetMessageString(String scrme) throws ClassNotFoundException {
 
 
-        aClass = Class.forName(scrme);
-        fields = aClass.getDeclaredFields();
+        Class<?> aClass = Class.forName(scrme);
+        Field[] fields = aClass.getDeclaredFields();
         String mess = "message Pair{\n";
         for (Field field : fields) {
             String name = field.getName();

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eee9d3a5-5cef-492f-bc84-2181121322de" name="Default Changelist" comment="">
+    <list default="true" id="eee9d3a5-5cef-492f-bc84-2181121322de" name="Default Changelist" comment="测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/Persion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/Persion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/SaveData2Parquet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/SaveData2Parquet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/tets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/tets.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/maven" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -67,7 +69,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -178,7 +180,7 @@
       <workItem from="1570142404588" duration="604000" />
       <workItem from="1570531036451" duration="885000" />
       <workItem from="1570542210157" duration="528000" />
-      <workItem from="1576279147755" duration="28553000" />
+      <workItem from="1576279147755" duration="29181000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1561379913748</created>
@@ -229,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576337134048</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="测试">
+      <created>1576337519388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576337519388</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

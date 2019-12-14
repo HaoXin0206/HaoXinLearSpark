@@ -7,9 +7,17 @@ package com.haoxin.Parquet;
  * @Descripition:
  */
 public class Persion {
-    public String name;
-    public int age;
-    public String ID;
+    private String name;
+    private int age;
+    private String ID;
+
+    public Persion(String name, int age, String ID) {
+        this.name = name;
+        this.age = age;
+        this.ID = ID;
+    }
+
+    public Persion(){}
 
     public String getName() {
         return name;
@@ -33,14 +41,5 @@ public class Persion {
 
     public void setID(String ID) {
         this.ID = ID;
-    }
-
-    @Override
-    public String toString() {
-        return "Persion{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", ID='" + ID + '\'' +
-                '}';
     }
 }

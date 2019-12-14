@@ -24,11 +24,8 @@ public class tets {
         SaveData2Parquet saveData2Parquet = new SaveData2Parquet("com.haoxin.Parquet.Persion", outPutPath);
 
 
-        for (int i = 0; i < 9999100; i++) {
-            Persion persion = new Persion();
-            persion.setName("郝鑫"+i);
-            persion.setAge(i);
-            persion.setID(""+i);
+        for (int i = 0; i < 100; i++) {
+            Persion persion = new Persion("郝鑫",i,i+"");
             saveData2Parquet.write(persion);
         }
 
