@@ -16,6 +16,7 @@ import org.apache.parquet.hadoop.metadata.CompressionCodecName;
 import org.apache.parquet.schema.MessageType;
 import org.apache.parquet.schema.MessageTypeParser;
 import scala.annotation.meta.field;
+import scala.reflect.internal.Trees;
 
 
 import java.io.IOException;
@@ -79,32 +80,40 @@ public class SaveData2Parquet {
      * @Describe: 写入文件
      * @Date： 2019/12/14   23:29
      */
-    public void write(Object object) throws IllegalAccessException, IOException {
+    public void write(Object object) throws Exception {
 
         Group group = simpleGroupFactory.newGroup();
         Field[] fields = object.getClass().getDeclaredFields();
         for (Field fieldd : fields) {
             fieldd.setAccessible(true);
             String name = fieldd.getName();
-            if (fieldd.getType().getTypeName().toLowerCase().contains("string")) {
-                String s = fieldd.get(object).toString();
-                group.append(name,s);
-            }
-            if (fieldd.getType().getTypeName().toLowerCase().contains("int")) {
-                int anInt = fieldd.getInt(object);
-                group.append(name,anInt);
-            }
-            if (fieldd.getType().getTypeName().toLowerCase().contains("double")) {
-                Double s = fieldd.getDouble(object);
-               group.append(name,s);
-            }
-            if (fieldd.getType().getTypeName().toLowerCase().contains("float")) {
-                Float s = fieldd.getFloat(object);
-                group.append(name,s);
-            }
-            if (fieldd.getType().getTypeName().toLowerCase().contains("long")) {
-                Long s = fieldd.getLong(object);
-                group.append(name,s);
+            switch (fieldd.getType().getTypeName().toLowerCase()){
+                case "double":
+                case "java.lang.double":
+                    group.append(name,fieldd.getDouble(object));
+                    break;
+                case "int":
+                case "java.lang.integer":
+                    group.append(name,fieldd.getInt(object));
+                    break;
+                case "long":
+                case "java.lang.long":
+                    group.append(name,fieldd.getLong(object));
+                    break;
+                case "float":
+                case "java.lang.float":
+                    group.append(name,fieldd.getFloat(object));
+                    break;
+                case "boolean":
+                case "java.lang.boolean":
+                    group.append(name,fieldd.getBoolean(object));
+                    break;
+                case "java.lang.string":
+                    group.append(name,fieldd.get(object).toString());
+                    break;
+                default:
+                    throw new Exception(fieldd.getType().getTypeName()+" 类型没有定义,自行添加 ");
+
             }
 
 

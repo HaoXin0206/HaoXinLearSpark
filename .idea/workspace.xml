@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eee9d3a5-5cef-492f-bc84-2181121322de" name="Default Changelist" comment="测试">
+    <list default="true" id="eee9d3a5-5cef-492f-bc84-2181121322de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/aa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/Persion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/Persion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/SaveData2Parquet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/SaveData2Parquet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/tets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/tets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,10 +68,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -83,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.tets">
+  <component name="RunManager" selected="Application.test">
     <configuration name="KafkaProper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KafkaProper" />
       <module name="HaoXinLearSaprk" />
@@ -139,8 +141,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.tets" />
         <item itemvalue="Application.test" />
+        <item itemvalue="Application.tets" />
         <item itemvalue="Application.SaveData2Parquet" />
         <item itemvalue="Application.ReadDir" />
         <item itemvalue="Application.KafkaProper" />
@@ -180,7 +182,7 @@
       <workItem from="1570142404588" duration="604000" />
       <workItem from="1570531036451" duration="885000" />
       <workItem from="1570542210157" duration="528000" />
-      <workItem from="1576279147755" duration="29181000" />
+      <workItem from="1576279147755" duration="32299000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1561379913748</created>
@@ -238,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576337519388</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="测试">
+      <created>1576338159702</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576338159702</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,5 +272,17 @@
     <MESSAGE value="SparkMl" />
     <MESSAGE value="测试" />
     <option name="LAST_COMMIT_MESSAGE" value="测试" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/aa.java</url>
+          <line>15</line>
+          <properties field="a9" class="aa" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
