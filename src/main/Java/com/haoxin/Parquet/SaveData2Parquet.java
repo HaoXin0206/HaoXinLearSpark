@@ -39,7 +39,16 @@ public class SaveData2Parquet {
     private Field[] fields;
     private Class<?> aClass;
 
+    /**
+     *
+     * @params:  * @param: scrme 元数据信息
+     * @param: savePath 文件保存地址
+     * @return
+     * @Describe: 初始化
+     * @Date： 2019/12/14   23:28
+     */
     SaveData2Parquet(String scrme, String savePath) throws IOException, ClassNotFoundException {
+
         typeMap.put("String", "BINARY");
         typeMap.put("int", "INT32");
         typeMap.put("long", "int64");
@@ -66,7 +75,15 @@ public class SaveData2Parquet {
     }
 
 
+    /**
+     *
+     * @params:  * @param: object 待写入对象
+     * @return void
+     * @Describe: 写入文件
+     * @Date： 2019/12/14   23:29
+     */
     public void write(Object object) throws IllegalAccessException, IOException {
+
         group = simpleGroupFactory.newGroup();
         Field[] fields = object.getClass().getDeclaredFields();
         for (Field fieldd : fields) {
@@ -97,7 +114,15 @@ public class SaveData2Parquet {
         build.write(group);
     }
 
+    /**
+     *
+     * @params:  * @param: scrme 元数据信息
+     * @return java.lang.String
+     * @Describe:
+     * @Date： 2019/12/14   23:29
+     */
     private String GetMessageString(String scrme) throws ClassNotFoundException {
+
 
         aClass = Class.forName(scrme);
         fields = aClass.getDeclaredFields();
