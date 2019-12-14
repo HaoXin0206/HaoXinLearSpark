@@ -2,38 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee9d3a5-5cef-492f-bc84-2181121322de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/SQL/ReadHiveTable.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/KafkaProper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/Core/ReadDir.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/Streaming/ReadKafkaData.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HaoXinLearSaprk.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/SQL/ReadHiveTable.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,6 +36,8 @@
       <find>*</find>
       <find>:</find>
       <find>//</find>
+      <find>郝</find>
+      <find>周</find>
     </findStrings>
     <replaceStrings>
       <replace>#</replace>
@@ -49,22 +45,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/SparkCoreDemo.scala" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/Core/SparkCoreDemo.scala" />
-        <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/SQL/SparkSqlDemo.scala" />
-        <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/Core/WriteDataToLocalHost.scala" />
-        <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/Core/MyTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/ML/TextSplitProcess.scala" />
-        <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/ML/FeatureTransformDemo.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/SQL/ReadHiveTable.scala" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -78,110 +58,22 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="HaoXinLearSaprk" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="HaoXinLearSaprk" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1UwslndBQHf2y7tRT9EfhotFZuX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HaoXinLearSaprk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HaoXinLearSaprk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HaoXinLearSaprk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HaoXinLearSaprk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HaoXinLearSaprk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HaoXinLearSaprk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HaoXinLearSaprk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HaoXinLearSaprk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HaoXinLearSaprk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HaoXinLearSaprk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="LearnSpark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HaoXinLearSaprk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HaoXinLearSaprk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="LearnSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="Core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HaoXinLearSaprk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HaoXinLearSaprk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="LearnSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="ML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HaoXinLearSaprk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HaoXinLearSaprk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="LearnSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="SQL" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HaoXinLearFlink" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -195,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadHiveTable">
+  <component name="RunManager" selected="Application.ReadDir">
     <configuration name="FeatureTransformDemo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="HaoXin.LearnSpark.ML.FeatureTransformDemo" />
       <module name="HaoXinLearSaprk" />
@@ -209,8 +101,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="HaoXin.LearnSpark.Core.MyTest" />
+    <configuration name="KafkaProper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KafkaProper" />
+      <module name="HaoXinLearSaprk" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadDir" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="HaoXin.LearnSpark.Core.ReadDir" />
       <module name="HaoXinLearSaprk" />
       <extension name="coverage">
         <pattern>
@@ -235,25 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextSplitProcess" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="HaoXin.LearnSpark.ML.TextSplitProcess" />
+    <configuration name="ReadKafkaData" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="HaoXin.LearnSpark.Streaming.ReadKafkaData" />
       <module name="HaoXinLearSaprk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HaoXin.LearnSpark.ML.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WriteDataToLocalHost" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="HaoXin.LearnSpark.Core.WriteDataToLocalHost" />
-      <module name="HaoXinLearSaprk" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HaoXin.LearnSpark.Core.*" />
+          <option name="PATTERN" value="HaoXin.LearnSpark.Streaming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadDir" />
+        <item itemvalue="Application.KafkaProper" />
+        <item itemvalue="Application.ReadKafkaData" />
         <item itemvalue="Application.ReadHiveTable" />
         <item itemvalue="Application.FeatureTransformDemo" />
-        <item itemvalue="Application.TextSplitProcess" />
-        <item itemvalue="Application.MyTest" />
-        <item itemvalue="Application.WriteDataToLocalHost" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +182,15 @@
       <workItem from="1567223421756" duration="19000" />
       <workItem from="1567302112315" duration="5884000" />
       <workItem from="1567308427133" duration="70000" />
-      <workItem from="1567345803205" duration="252000" />
+      <workItem from="1567345803205" duration="436000" />
+      <workItem from="1568816605916" duration="604000" />
+      <workItem from="1569031035344" duration="24000" />
+      <workItem from="1569983439210" duration="4285000" />
+      <workItem from="1570063988662" duration="13127000" />
+      <workItem from="1570142404588" duration="604000" />
+      <workItem from="1570531036451" duration="885000" />
+      <workItem from="1570542210157" duration="528000" />
+      <workItem from="1576279147755" duration="7986000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1561379913748</created>
@@ -326,51 +220,29 @@
       <option name="project" value="LOCAL" />
       <updated>1566823826354</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="SparkMl">
+      <created>1567346064456</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567346064456</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30568000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36550975" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.329718" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32995737" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -381,82 +253,15 @@
     <MESSAGE value="SparkMl" />
     <option name="LAST_COMMIT_MESSAGE" value="SparkMl" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/SparkCoreDemo.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/ML/TextSplitProcess.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#30#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/SQL/SparkSqlDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/Core/WriteDataToLocalHost.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="e#32#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/Core/SparkCoreDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#33#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/Core/MyTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/ML/FeatureTransformDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
-          <folding>
-            <element signature="e#30#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/SQL/ReadHiveTable.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/Core/ReadDir.scala</url>
+          <line>63</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
