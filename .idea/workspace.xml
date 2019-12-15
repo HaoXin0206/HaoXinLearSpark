@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee9d3a5-5cef-492f-bc84-2181121322de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/SaveData2Parquet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/SaveData2Parquet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/tets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/tets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/Core/ReadDir.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/Core/ReadDir.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/SQL/ReadParquet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearnSpark/SQL/ReadParquet.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,20 +83,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="KafkaProper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KafkaProper" />
-      <module name="HaoXinLearSaprk" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReadParquet">
     <configuration name="ReadDir" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="HaoXin.LearnSpark.Core.ReadDir" />
       <module name="HaoXinLearSaprk" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HaoXin.LearnSpark.Core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadParquet" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="HaoXin.LearnSpark.SQL.ReadParquet" />
+      <module name="HaoXinLearSaprk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HaoXin.LearnSpark.SQL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
+        <item itemvalue="Application.ReadParquet" />
         <item itemvalue="Application.tets" />
-        <item itemvalue="Application.SaveData2Parquet" />
         <item itemvalue="Application.ReadDir" />
-        <item itemvalue="Application.KafkaProper" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.SaveData2Parquet" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +187,7 @@
       <workItem from="1570531036451" duration="885000" />
       <workItem from="1570542210157" duration="528000" />
       <workItem from="1576279147755" duration="32540000" />
-      <workItem from="1576375177506" duration="294000" />
+      <workItem from="1576375177506" duration="4145000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1561379913748</created>
@@ -257,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576375265294</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="测试">
+      <created>1576375478562</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576375478562</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -20,12 +20,12 @@ public class tets {
     public static void main(String[] args) {
         try {
             String name=System.currentTimeMillis()+".parquet";
-            String outPutPath="D:\\data\\sparktest\\"+name;
+            String outPutPath="D:\\data\\sparktest\\e\\"+name;
 
             SaveData2Parquet saveData2Parquet = new SaveData2Parquet("com.haoxin.Parquet.Persion", outPutPath);
 
 
-            for (int i = 0; i < 100; i++) {
+            for (int i = 0; i < 99999999; i++) {
                 Persion persion = new Persion("郝鑫",i,i+"");
                 saveData2Parquet.write(persion);
             }
@@ -38,15 +38,15 @@ public class tets {
 
             }
 
-            GroupReadSupport readSupport = new GroupReadSupport();
-            ParquetReader.Builder<Group> reader = ParquetReader.builder(readSupport, new Path(outPutPath));
-
-            ParquetReader<Group> build = reader.build();
-            Group line=null;
-            while ((line=build.read())!=null){
-                System.out.println("name:"+line.getString("name",0)+"\tage:"+line.getInteger("age",0)+"\tid:"+line.getString(
-                        "ID",0));
-            }
+//            GroupReadSupport readSupport = new GroupReadSupport();
+//            ParquetReader.Builder<Group> reader = ParquetReader.builder(readSupport, new Path(outPutPath));
+//
+//            ParquetReader<Group> build = reader.build();
+//            Group line=null;
+//            while ((line=build.read())!=null){
+//                System.out.println("name:"+line.getString("name",0)+"\tage:"+line.getInteger("age",0)+"\tid:"+line.getString(
+//                        "ID",0));
+//            }
         }catch (Exception e){
             e.printStackTrace();
         }

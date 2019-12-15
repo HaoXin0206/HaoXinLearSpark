@@ -16,7 +16,7 @@ object ReadDir {
 
     val sc = SparkContext.getOrCreate(conf)
 
-    val dd = sc.binaryFiles("D:\\data\\sparktest\\a")
+    val dd = sc.binaryFiles("D:\\data\\sparktest\\e")
       .groupBy(a => a._1)
       .flatMap(a => {
         val filename = a._1
@@ -36,16 +36,16 @@ object ReadDir {
       .mapPartitions(data => {
         data.map(d => {
           val filename = d._1.split("/").last
-          val file = new File(s"D:\\data\\${filename}")
-          val writer = new FileWriter(file)
-
-          val list = d._2.toList
-         list.foreach(a=>{
-           writer.write(s"${a._1}\t${a._2}")
-           writer.flush()
-         })
-
-          writer.close()
+//          val file = new File(s"D:\data\sparktest\d\\${filename}")
+//          val writer = new FileWriter(file)
+//
+//          val list = d._2.toList
+//         list.foreach(a=>{
+//           writer.write(s"${a._1}\t${a._2}")
+//           writer.flush()
+//         })
+//
+//          writer.close()
 
           filename
         })
