@@ -47,8 +47,9 @@ public class SaveData2Parquet {
      */
     SaveData2Parquet(String scrme, String savePath) throws IOException, ClassNotFoundException {
 
-        typeMap.put("String", "BINARY");
+        typeMap.put("string", "BINARY");
         typeMap.put("int", "INT32");
+        typeMap.put("integer","INT32");
         typeMap.put("long", "int64");
         typeMap.put("float", "float");
         typeMap.put("double", "double");
@@ -134,7 +135,7 @@ public class SaveData2Parquet {
         String mess = "message Pair{\n";
         for (Field field : fields) {
             String name = field.getName();
-            String typeName = field.getType().getTypeName().replace("java.lang.", "");
+            String typeName = field.getType().getTypeName().replace("java.lang.", "").toLowerCase();
             mess = mess + " required " + typeMap.get(typeName) + " " + name + " " + (typeName.toLowerCase().contains("string") ?
                     "(UTF8);\n" : ";\n");
         }
