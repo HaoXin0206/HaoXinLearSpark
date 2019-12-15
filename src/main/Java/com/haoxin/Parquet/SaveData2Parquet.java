@@ -108,11 +108,9 @@ public class SaveData2Parquet {
                 case "java.lang.boolean":
                     group.append(name,fieldd.getBoolean(object));
                     break;
-                case "java.lang.string":
+                default:
                     group.append(name,fieldd.get(object).toString());
                     break;
-                default:
-                    throw new Exception(fieldd.getType().getTypeName()+" 类型没有定义,自行添加 ");
 
             }
 

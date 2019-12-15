@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eee9d3a5-5cef-492f-bc84-2181121322de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/aa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/SaveData2Parquet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/SaveData2Parquet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/tets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/haoxin/Parquet/tets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
-    </list>
+    <list default="true" id="eee9d3a5-5cef-492f-bc84-2181121322de" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +175,7 @@
       <workItem from="1570142404588" duration="604000" />
       <workItem from="1570531036451" duration="885000" />
       <workItem from="1570542210157" duration="528000" />
-      <workItem from="1576279147755" duration="32299000" />
+      <workItem from="1576279147755" duration="32540000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1561379913748</created>
@@ -247,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576338159702</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="测试">
+      <created>1576341403227</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576341403227</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
