@@ -19,7 +19,7 @@
         <spark.scala.version>2.11</spark.scala.version>
         <spark.version>2.4.4</spark.version>
         <hadoop>2.6.0</hadoop>
-        <kafka.version>2.3.0</kafka.version>
+        <kafka.version>2.6.3</kafka.version>
     </properties>
 
     <dependencies>
